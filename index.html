@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<Style>
+
+    body{
+        background-color: gray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    div{
+
+        height: 90vh;
+        width: 600px;
+        background-color:black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+        border:8px solid red;
+        border-style: groove;
+    }
+</Style>
+<body>
+    <div class="container">
+
+        <h1>Select Ypur Move</h1>
+        <img src="rock-576682_1280.png" alt="" width="120" onclick="Rock()">
+<br><br>
+        <img src="paper-8705319_1280.png" alt="" width="100" onclick="Paper()">
+        <br><br><br>
+        <img src="scissors-1297454_1280.png" alt="" width="120" onclick="Scissor()">
+        <br><br><br>
+        <h1 id="computer"></h1>
+        <h1 id="result"></h1>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
